@@ -1,12 +1,14 @@
 "use client";
+import React from "react";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import {
   BsFillPersonLinesFill,
   BsReverseLayoutTextSidebarReverse,
 } from "react-icons/bs";
 import Logo from "../pictures/logo.png";
+import Link from "next/link";
 
 export function Navbar() {
   const [nav, setNav] = useState(false);
@@ -44,36 +46,38 @@ export function Navbar() {
       <div className="hidden md:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="rounded-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#915454]">
-            <a
+            <Link
               className="flex justify-between items-center w-full text-[#FFC3A1]"
-              href="/"
+              href="https://www.linkedin.com/in/alex-canales-1aa8ab27b/"
+              target="_blank"
             >
               LinkedIn <FaLinkedin size={30} />
-            </a>
+            </Link>
           </li>
           <li className="rounded-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#A75D5D]">
-            <a
+            <Link
               className="flex justify-between items-center w-full text-[#FFC3A1]"
-              href="/"
+              href="https://github.com/acanales3"
+              target="_blank"
             >
               GitHub <FaGithub size={30} />
-            </a>
+            </Link>
           </li>
           <li className="rounded-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#BA6363]">
-            <a
+            <Link
               className="flex justify-between items-center w-full text-[#FFC3A1]"
               href="/"
             >
               Resume <BsFillPersonLinesFill size={30} />
-            </a>
+            </Link>
           </li>
           <li className="rounded-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#D16969]">
-            <a
+            <Link
               className="flex justify-between items-center w-full text-[#FFC3A1]"
               href="/"
             >
               Transcript <BsReverseLayoutTextSidebarReverse size={30} />
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
