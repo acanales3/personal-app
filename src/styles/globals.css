@@ -76,11 +76,14 @@
   li {
     @apply px-4;
     @apply cursor-pointer;
+    @apply hover:text-[#FFC3A1];
   }
 }
 /*
+Nav Bar Red = #915454
 Dark red = #A75D5D
 Dark orange = #D3756B
 Peach = #F0997D
 Light peach = #FFC3A1
+Page Peach = #FCE2D4
 */
