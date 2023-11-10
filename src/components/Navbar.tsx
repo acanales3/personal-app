@@ -43,7 +43,7 @@ export function Navbar() {
       {/* Socials for Computer*/}
       <div className="hidden md:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#915454]">
+          <li className="rounded-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#915454]">
             <a
               className="flex justify-between items-center w-full text-[#FFC3A1]"
               href="/"
@@ -51,7 +51,7 @@ export function Navbar() {
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#A75D5D]">
+          <li className="rounded-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#A75D5D]">
             <a
               className="flex justify-between items-center w-full text-[#FFC3A1]"
               href="/"
@@ -59,7 +59,7 @@ export function Navbar() {
               GitHub <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#BA6363]">
+          <li className="rounded-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#BA6363]">
             <a
               className="flex justify-between items-center w-full text-[#FFC3A1]"
               href="/"
@@ -67,7 +67,7 @@ export function Navbar() {
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#D16969]">
+          <li className="rounded-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#D16969]">
             <a
               className="flex justify-between items-center w-full text-[#FFC3A1]"
               href="/"
