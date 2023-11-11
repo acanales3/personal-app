@@ -5,7 +5,7 @@ export function Home() {
   return (
     <div className="w-full h-screen bg-[#FCE2D4]">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-[rgb(211,117,107)] text-xl">Hi, my name is</p>
+        <p className="text-[#D3756B] text-xl">Hi, my name is</p>
         <h1 className="text-[#915454] text-4xl sm:text-7xl font-bold">
           Alex Canales
         </h1>
