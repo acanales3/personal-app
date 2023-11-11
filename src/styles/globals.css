@@ -71,7 +71,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-[#FCE2D4] text-foreground;
   }
   li {
     @apply px-4;
