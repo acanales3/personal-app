@@ -79,6 +79,17 @@
     @apply hover:text-[#FFC3A1];
   }
 }
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+.content-div:hover {
+  background-image: linear-gradient(to right, #915454, #d16969) !important;
+}
+
 /*
 Nav Bar Red = #915454
 Dark red = #A75D5D
