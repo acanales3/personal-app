@@ -5,13 +5,13 @@ import { Navbar } from "@/components/Navbar";
 import { Home } from "@/components/Home";
 import { AboutMe } from "@/components/AboutMe";
 import { Projects } from "@/components/Projects";
+import { Contact } from "@/components/Contact";
+import { SocialMedia } from "@/components/SocialMedia";
 
 export default function Page() {
   return (
     <div>
-      <Projects />
+      <Home />
     </div>
   );
 }
-
-//<Home />
