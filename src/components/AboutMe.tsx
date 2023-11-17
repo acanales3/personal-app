@@ -1,10 +1,11 @@
 "use client";
-
+// lg:h-[118%] md:h-[130%] sm:h-[145%] h-[175%]
+// lg:mt-80 md:mt-[450px] sm:mt-[525px] mt-[650px]
 export function AboutMe() {
   return (
-    <div className="w-full h-screen bg-[#FCE2D4] text-[#A75D5D]">
-      <div className="flex flex-col justify-center items-center w-full lg:h-[118%] md:h-[130%] sm:h-[145%] h-[175%]">
-        <div className="text-[#915454] text-4xl sm:text-7xl font-bold lg:mt-80 md:mt-[450px] sm:mt-[525px] mt-[650px]">
+    <div className="w-full h-screen bg-[#FCE2D4] text-[#A75D5D] pt-16">
+      <div className="flex flex-col justify-center items-center w-full">
+        <div className="text-[#915454] text-4xl sm:text-7xl font-bold">
           <h1>About Me</h1>
         </div>
         <div className="py-4">
