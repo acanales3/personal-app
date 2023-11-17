@@ -8,16 +8,16 @@ import Link from "next/link";
 export function Projects() {
   return (
     <div className="w-full h-screen bg-[#FCE2D4] text-[#A75D5D]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+      <div className="max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full lg:h-[118%] md:h-[130%] sm:h-[145%] h-[220%]">
+        <div className="pb-4">
           <h1 className="text-4xl font-bold">Projects</h1>
-          <p className="py-6">Check Out Some of My Projects!</p>
+          <p className="py-2">Check Out Some of My Projects!</p>
         </div>
 
         {/* Container For Projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div className="bg-[#AAAAAA] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div">
-            <div className="opacity-0 group-hover:opacity-100 text-center">
+            <div className="opacity-0 group-hover:opacity-80 text-center">
               <span className=" text-2xl font-bold text-[#FFC3A1] tracking-wider">
                 First Personal Portfolio
               </span>
@@ -46,7 +46,7 @@ export function Projects() {
             style={{ backgroundImage: `url(${Code})` }}
             className="bg-[#BBBBBB] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            <div className="opacity-0 group-hover:opacity-100 text-center">
+            <div className="opacity-0 group-hover:opacity-80 text-center">
               <span className=" text-2xl font-bold text-[#FFC3A1] tracking-wider">
                 Lab 1 - Techniques In Programming
               </span>
@@ -75,7 +75,7 @@ export function Projects() {
             style={{ backgroundImage: `url(${Code})` }}
             className="bg-[#CCCCCC] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            <div className="opacity-0 group-hover:opacity-100 text-center">
+            <div className="opacity-0 group-hover:opacity-80 text-center">
               <span className=" text-2xl font-bold text-[#FFC3A1] tracking-wider">
                 Lab 2 - Techniques In Programming
               </span>
@@ -104,7 +104,7 @@ export function Projects() {
             style={{ backgroundImage: `url(${Code})` }}
             className="bg-[#DDDDDD] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            <div className="opacity-0 group-hover:opacity-100 text-center">
+            <div className="opacity-0 group-hover:opacity-80 text-center">
               <span className=" text-2xl font-bold text-[#FFC3A1] tracking-wider">
                 Lab 3 - Techniques In Programming
               </span>
@@ -133,7 +133,7 @@ export function Projects() {
             style={{ backgroundImage: `url(${Code})` }}
             className="bg-[#DFDFDF] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            <div className="opacity-0 group-hover:opacity-100 text-center">
+            <div className="opacity-0 group-hover:opacity-80 text-center">
               <span className=" text-xl font-bold text-[#FFC3A1] tracking-wider">
                 Lab 4/5 - Techniques In Programming
               </span>
