@@ -2,7 +2,7 @@
 
 export function Contact() {
   return (
-    <div className="w-full h-screen bg-[#FCE2D4] flex justify-center items-center p-4 text-[#D3756B]">
+    <div className="w-full h-screen bg-[#FCE2D4] flex justify-center items-center p-4 text-[#D3756B] pt-16">
       <form
         method="POST"
         action="https://getform.io/f/5894ea29-289d-4161-8b05-cc9340b5393e"
