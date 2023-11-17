@@ -1,14 +1,13 @@
 "use client";
 import React from "react";
 import { ImageBackground } from "react-native";
-import Code from "../pictures/generic.jpeg";
 
 import Link from "next/link";
 
 export function Projects() {
   return (
-    <div className="w-full h-screen bg-[#FCE2D4] text-[#A75D5D]">
-      <div className="max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full lg:h-[118%] md:h-[130%] sm:h-[145%] h-[220%]">
+    <div className="w-full h-screen bg-[#FCE2D4] text-[#A75D5D] pt-16">
+      <div className="max-w-[1000px] mx-auto p-2 flex flex-col justify-center w-full">
         <div className="pb-4">
           <h1 className="text-4xl font-bold">Projects</h1>
           <p className="py-2">Check Out Some of My Projects!</p>
@@ -16,7 +15,12 @@ export function Projects() {
 
         {/* Container For Projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          <div className="bg-[#AAAAAA] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div
+            style={{
+              backgroundImage: `url(./pictures/firstweb.png)`,
+            }}
+            className="bg-[#AAAAAA] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
             <div className="opacity-0 group-hover:opacity-80 text-center">
               <span className=" text-2xl font-bold text-[#FFC3A1] tracking-wider">
                 First Personal Portfolio
@@ -43,7 +47,7 @@ export function Projects() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${Code})` }}
+            style={{ backgroundImage: `url(./pictures/Lab1Pic.png)` }}
             className="bg-[#BBBBBB] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-80 text-center">
@@ -72,7 +76,7 @@ export function Projects() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${Code})` }}
+            style={{ backgroundImage: `url(./pictures/Lab2Pic.png)` }}
             className="bg-[#CCCCCC] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-80 text-center">
@@ -101,7 +105,7 @@ export function Projects() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${Code})` }}
+            style={{ backgroundImage: `url(./pictures/Lab3Pic.png)` }}
             className="bg-[#DDDDDD] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-80 text-center">
@@ -130,7 +134,7 @@ export function Projects() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${Code})` }}
+            style={{ backgroundImage: `url(./pictures/Lab45PicFinal.png)` }}
             className="bg-[#DFDFDF] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-80 text-center">
