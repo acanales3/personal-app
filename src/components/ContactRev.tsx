@@ -27,7 +27,7 @@ export function ContactRev() {
   }
 
   return (
-    <div className="w-full h-screen bg-[#FCE2D4] flex justify-center items-center p-4 text-[#D3756B] pt-16">
+    <div className="w-full h-screen bg-[#FCE2D4] flex justify-center items-center p-4 text-[#D3756B]">
       <form className="flex flex-col max-w-[600px] w-full" onSubmit={sendEmail}>
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#915454]">
