@@ -13,16 +13,27 @@ import Link from "next/link";
 export function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  const refreshClick = () => setNav(!nav);
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#915454] text-[#F0997D]">
       {/* Menu for Web */}
       <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About Me</li>
-        <li>Projects</li>
-        <li>Social Media</li>
-        <li>Contact Me</li>
+        <Link href="/">
+          <li>Home</li>
+        </Link>
+        <Link href="/about">
+          <li>About Me</li>
+        </Link>
+        <Link href="/projects">
+          <li>Projects</li>
+        </Link>
+        <Link href="/social">
+          <li>Social Media</li>
+        </Link>
+        <Link href="/contact">
+          <li>Contact Me</li>
+        </Link>
       </ul>
       {/* Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
@@ -36,11 +47,31 @@ export function Navbar() {
             : "absolute top-0 left-0 w-full h-screen bg-[#A75D5D] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About Me</li>
-        <li className="py-6 text-4xl">Projects</li>
-        <li className="py-6 text-4xl">Social Media</li>
-        <li className="py-6 text-4xl">Contact Me</li>
+        <Link href="/">
+          <li className="py-6 text-4xl" onClick={refreshClick}>
+            Home
+          </li>
+        </Link>
+        <Link href="/about">
+          <li className="py-6 text-4xl" onClick={refreshClick}>
+            About Me
+          </li>
+        </Link>
+        <Link href="/projects">
+          <li className="py-6 text-4xl" onClick={refreshClick}>
+            Projects
+          </li>
+        </Link>
+        <Link href="/social">
+          <li className="py-6 text-4xl" onClick={refreshClick}>
+            Social Media
+          </li>
+        </Link>
+        <Link href="/contact">
+          <li className="py-6 text-4xl" onClick={refreshClick}>
+            Contact Me
+          </li>
+        </Link>
       </ul>
       {/* Socials for Computer*/}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
