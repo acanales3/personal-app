@@ -33,10 +33,11 @@ export function ContactRev() {
           <p className="text-4xl font-bold inline border-b-4 border-[#915454]">
             Contact Me
           </p>
-          <p className="py-4">
-            Submit the Form Below! Or you can shoot me an email:
-            alexander.s.canales@gmail.com
+          <p className="py-4">Submit the Form Below!</p>
+          <p className="py-1">
+            Or you can shoot me an email: alexander.s.canales@gmail.com
           </p>
+          <p className="py-1">Or a text / phone call: 317-766-0430</p>
         </div>
         <label>Name</label>
         <input

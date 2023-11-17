@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
 export function Home() {
@@ -19,10 +20,12 @@ export function Home() {
           information.
         </p>
         <div>
-          <button className="text-[#915454] group border-2 border-[#915454] px-6 py-3 my-2 flex items-center hover:bg-[#D3756B] hover:border-[#D3756B]">
+          <button className="text-[#915454] group border-2 border-[#915454] px-8 py-3 my-2 flex items-center hover:bg-[#D3756B] hover:border-[#D3756B]">
             View Projects
             <span className="group-hover:rotate-45 duration-300">
-              <HiArrowNarrowRight className="ml-3" />
+              <Link href="/projects">
+                <HiArrowNarrowRight className="ml-3" />
+              </Link>
             </span>
           </button>
         </div>

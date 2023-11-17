@@ -97,7 +97,8 @@ export function Navbar() {
           <li className="rounded-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#BA6363]">
             <Link
               className="flex justify-between items-center w-full text-[#FFC3A1]"
-              href="/"
+              href="https://github.com/acanales3/documents/blob/main/ResumeCanalesGitHub.pdf"
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </Link>
@@ -105,7 +106,8 @@ export function Navbar() {
           <li className="rounded-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#D16969]">
             <Link
               className="flex justify-between items-center w-full text-[#FFC3A1]"
-              href="/"
+              href="https://github.com/acanales3/documents/blob/main/T_TRANSCRIPT.pdf"
+              target="_blank"
             >
               Transcript <BsReverseLayoutTextSidebarReverse size={30} />
             </Link>
