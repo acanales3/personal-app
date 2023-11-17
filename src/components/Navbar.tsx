@@ -16,7 +16,7 @@ export function Navbar() {
   const refreshClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#915454] text-[#F0997D]">
+    <div className="sticky top-0 w-full h-[80px] flex justify-between items-center px-4 bg-[#915454] text-[#F0997D] z-10">
       {/* Menu for Web */}
       <ul className="hidden md:flex">
         <Link href="/">
