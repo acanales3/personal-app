@@ -10,7 +10,7 @@ export function AboutMe() {
         </div>
         <div className="py-4">
           <p className="px-8 max-w-[1000px]">
-            Hello my name is Alex Canales. I am a passionate sophmore Computer
+            Hello my name is Alex Canales. I am a passionate sophomore Computer
             Science major at Texas Christian University, with a minor in
             Mathematics and Philosophy. However, even though I go to school in
             Texas, I am originally from Brownsburg, IN. I fell in love with
@@ -19,7 +19,7 @@ export function AboutMe() {
             Cybersecurity. Some other classes that I took in High School that I
             took that gave me a well-rounded preparation for college was
             Calculus BC and Physics Mechanics: C. It was not until the end of my
-            senior year of high school that I decided to take the opportunity
+            senior year of High School that I decided to take the opportunity
             given to me at Texas Christian University to pursue higher
             education.
           </p>
@@ -31,13 +31,13 @@ export function AboutMe() {
           I graduated in 2022 at the top of my class, and wanted to pursue
           Computer Science in College from the classes I took from High School.
           I was a part of National Honors Society with a cumulative GPA of 4.6
-          on a 4.0 scale. High School acitivies I was a part of was a tutoring
+          on a 4.0 scale. High School activities I was a part of was a tutoring
           program that my school ran. Some hobbies that I picked up in High
-          School included skiing, fishing, and playing the guitar. I fell in
-          love with these things and tried to stick with them as much as I could
-          growing up, and continue them in college. I was involved with the
-          wrestling team at my High School as well. My Junior year, we finished
-          12th in the nation and I was proud to be a wrestler on that team.
+          School included skiing, fishing, and playing the guitar. I loved doing
+          these things and tried to stick with them as much as I could growing
+          up, and continue them in college. I was involved with the wrestling
+          team at my High School as well. My Junior year, we finished 12th in
+          the nation and I was proud to be a wrestler on that team.
         </p>
         <div className="text-2xl sm:text-4xl font-bold py-4">
           Collegiate Achomplishments
