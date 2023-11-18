@@ -47,7 +47,7 @@ export function Projects() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(./pictures/Lab1Pic.png)` }}
+            style={{ backgroundImage: `url(./pictures/Lab1Red.png)` }}
             className="bg-[#BBBBBB] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-80 text-center">
@@ -76,7 +76,7 @@ export function Projects() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(./pictures/Lab2Pic.png)` }}
+            style={{ backgroundImage: `url(./pictures/Lab2Red.png)` }}
             className="bg-[#CCCCCC] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-80 text-center">
@@ -105,7 +105,7 @@ export function Projects() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(./pictures/Lab3Pic.png)` }}
+            style={{ backgroundImage: `url(./pictures/Lab3Red.png)` }}
             className="bg-[#DDDDDD] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-80 text-center">
@@ -134,7 +134,7 @@ export function Projects() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(./pictures/Lab45PicFinal.png)` }}
+            style={{ backgroundImage: `url(./pictures/Lab45Red.png)` }}
             className="bg-[#DFDFDF] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-80 text-center">
