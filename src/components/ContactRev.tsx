@@ -15,8 +15,8 @@ export function ContactRev() {
       .sendForm(
         "service_5fanlbp",
         "template_s26raxg",
-        e.currentTarget
-        //"Qe3jAQ79DhSZhnGCj"
+        e.currentTarget,
+        "Qe3jAQ79DhSZhnGCj"
       )
       .then(
         (result: { text: any }) => {
