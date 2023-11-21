@@ -1,9 +1,12 @@
 "use client";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { useToast } from "./ui/use-toast";
+import { Button } from "./ui/button";
 
 export function ContactRev() {
   const form = useRef();
+  const { toast } = useToast();
 
   function sendEmail(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -12,8 +15,8 @@ export function ContactRev() {
       .sendForm(
         "service_5fanlbp",
         "template_s26raxg",
-        e.currentTarget,
-        "Qe3jAQ79DhSZhnGCj"
+        e.currentTarget
+        //"Qe3jAQ79DhSZhnGCj"
       )
       .then(
         (result: { text: any }) => {
@@ -54,6 +57,14 @@ export function ContactRev() {
         <label>Message</label>
         <textarea className="bg-[#915454] text-[#FFC3A1] p-2" name="message" />
         <button
+          onClick={() => {
+            toast({
+              variant: "custom",
+              title: "Your message has been sent!",
+              description:
+                "Check your email for confirmation, and I will get back with you shortly!",
+            });
+          }}
           type="submit"
           value="Send"
           className="px-4 py-2 my-2 text-[#915454] font-bold border-2 border-[#915454] hover:bg-[#D3756B] hover:border-[#D3756B] hover:text-[#915454] mx-auto flex items-center"
