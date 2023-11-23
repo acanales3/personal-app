@@ -11,7 +11,7 @@ export function Home() {
           Alex Canales
         </h1>
         <h2 className="text-[#A75D5D] text-4xl sm:text-7xl">
-          Student at Texas Chrisitan University
+          Student at Texas Christian University
         </h2>
         <p className="text-[#A75D5D] py-4">
           I am a sophomore at TCU majoring in Computer Science, with a minor in
