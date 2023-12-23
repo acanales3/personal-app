@@ -54,71 +54,113 @@ export function AboutMe() {
         </div>
         <div className="px-8 max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full">
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4">
-            <div className="shadow-md shadow-[#FFC3A1] hover:scale-110 duration-500">
+            <div className="shadow-md shadow-[#A75D5D] hover:scale-110 duration-500 pt-5 text-lg text-[#915454] font-medium hover:bg-[#FFC3A1]">
               Fall Semester 2022
-              <div className="py-4">
-                <ul>
-                  <li>COSC 10403: Intro to Programming</li>
-                  <li>MATH 20123: Discrete Mathematics I</li>
+              <div className="py-2 text-base text-[#A75D5D] font-normal">
+                <ul className="hover-disabled">
+                  <li className="py-2">
+                    <span className="font-medium">COSC 10403:</span> Intro to
+                    Programming
+                  </li>
+                  <li className="py-2">
+                    <span className="font-medium">MATH 20123:</span> Discrete
+                    Mathematics I
+                  </li>
                 </ul>
               </div>
             </div>
-            <div className="shadow-md shadow-[#FFC3A1] hover:scale-110 duration-500 py-2">
+            <div className="shadow-md shadow-[#A75D5D] hover:scale-110 duration-500 pt-5 text-lg text-[#915454] font-medium hover:bg-[#FFC3A1]">
               Spring Semester 2023
-              <div className="py-4">
-                <ul>
-                  <li>COSC 20203: Techniques in Programming</li>
-                  <li>MATH 10043: Elementary Statistics</li>
+              <div className="py-2 text-base text-[#A75D5D] font-normal">
+                <ul className="hover-disabled">
+                  <li className="py-2">
+                    <span className="font-medium">COSC 20203:</span> Techniques
+                    in Programming
+                  </li>
+                  <li className="py-2">
+                    <span className="font-medium">MATH 10043:</span> Elementary
+                    Statistics
+                  </li>
                 </ul>
               </div>
             </div>
-            <div className="shadow-md shadow-[#FFC3A1] hover:scale-110 duration-500">
+            <div className="shadow-md shadow-[#A75D5D] hover:scale-110 duration-500 pt-5 text-lg text-[#915454] font-medium hover:bg-[#FFC3A1]">
               Fall Semester 2023
-              <div className="py-4">
-                <ul>
-                  <li>COSC 20803: Data Structures & Algorithms</li>
-                  <li>CITE 30103: Unix/Linux System Administration</li>
-                  <li>MATH 30224: Linear Algebra</li>
+              <div className="py-2 text-base text-[#A75D5D] font-normal">
+                <ul className="hover-disabled">
+                  <li className="py-2">
+                    <span className="font-medium">COSC 20803: </span>
+                    Data Structures & Algorithms
+                  </li>
+                  <li className="py-2">
+                    <span className="font-medium">CITE 30103: </span>
+                    Unix/Linux System Administration
+                  </li>
+                  <li className="py-2">
+                    <span className="font-medium">MATH 30224: </span>
+                    Linear Algebra
+                  </li>
                 </ul>
               </div>
             </div>
-            <div className="shadow-md shadow-[#FFC3A1] hover:scale-110 duration-500">
+            <div className="shadow-md shadow-[#A75D5D] hover:scale-110 duration-500 pt-5 text-lg text-[#915454] font-medium hover:bg-[#FFC3A1]">
               Spring Semester 2024
-              <div className="py-4">
-                <ul>
-                  <li>N/A</li>
+              <div className="py-2 text-base text-[#A75D5D] font-normal">
+                <ul className="hover-disabled">
+                  <li className="py-2">
+                    <span className="font-medium">COSC 30253: </span>Computer
+                    Organization
+                  </li>
+                  <li className="py-2">
+                    <span className="font-medium">COSC 30403: </span>
+                    Programming Language Concepts
+                  </li>
+                  <li className="py-2">
+                    <span className="font-medium">
+                      CodePath TCU - WEB 102:{" "}
+                    </span>
+                    Intermediate Web Development
+                  </li>
                 </ul>
               </div>
             </div>
-            <div className="shadow-md shadow-[#FFC3A1] hover:scale-110 duration-500">
+            <div className="shadow-md shadow-[#A75D5D] hover:scale-110 duration-500 pt-5 text-lg text-[#915454] font-medium hover:bg-[#FFC3A1]">
               Fall Semester 2024
-              <div className="py-4">
-                <ul>
-                  <li>N/A</li>
+              <div className="py-2 text-base text-[#A75D5D] font-normal">
+                <ul className="hover-disabled">
+                  <li className="py-2">
+                    <span className="font-medium"></span>N/A
+                  </li>
                 </ul>
               </div>
             </div>
-            <div className="shadow-md shadow-[#FFC3A1] hover:scale-110 duration-500">
+            <div className="shadow-md shadow-[#A75D5D] hover:scale-110 duration-500 pt-5 text-lg text-[#915454] font-medium hover:bg-[#FFC3A1]">
               Spring Semester 2025
-              <div className="py-4">
-                <ul>
-                  <li>N/A</li>
+              <div className="py-2 text-base text-[#A75D5D] font-normal">
+                <ul className="hover-disabled">
+                  <li className="py-2">
+                    <span className="font-medium"></span>N/A
+                  </li>
                 </ul>
               </div>
             </div>
-            <div className="shadow-md shadow-[#FFC3A1] hover:scale-110 duration-500">
+            <div className="shadow-md shadow-[#A75D5D] hover:scale-110 duration-500 pt-5 text-lg text-[#915454] font-medium hover:bg-[#FFC3A1]">
               Fall Semester 2025
-              <div className="py-4">
-                <ul>
-                  <li>N/A</li>
+              <div className="py-2 text-base text-[#A75D5D] font-normal">
+                <ul className="hover-disabled">
+                  <li className="py-2">
+                    <span className="font-medium"></span>N/A
+                  </li>
                 </ul>
               </div>
             </div>
-            <div className="shadow-md shadow-[#FFC3A1] hover:scale-110 duration-500">
+            <div className="shadow-md shadow-[#A75D5D] hover:scale-110 duration-500 pt-5 text-lg text-[#915454] font-medium hover:bg-[#FFC3A1]">
               Spring Semester 2026
-              <div className="py-4">
-                <ul>
-                  <li>N/A</li>
+              <div className="py-2 text-base text-[#A75D5D] font-normal">
+                <ul className="hover-disabled">
+                  <li className="py-2">
+                    <span className="font-medium"></span>N/A
+                  </li>
                 </ul>
               </div>
             </div>

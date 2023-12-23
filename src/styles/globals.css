@@ -90,6 +90,10 @@
   background-image: linear-gradient(to right, #915454, #d16969) !important;
 }
 
+.hover-disabled li:hover {
+  color: inherit;
+}
+
 /*
 Nav Bar Red = #915454
 Dark red = #A75D5D
