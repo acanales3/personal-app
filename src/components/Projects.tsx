@@ -15,6 +15,46 @@ export function Projects() {
 
         {/* Container For Projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          {/* Start List of Items */}
+          <div
+            style={{
+              backgroundImage: `url(./pictures/notesApp.png)`,
+            }}
+            className="bg-[#AAAAAA] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-80 text-center">
+              <span className=" text-2xl font-bold text-[#FFC3A1] tracking-wider">
+                Full Stack Notes App
+              </span>
+              <div className="pt-4 text-center">
+                <Link
+                  href="https://github.com/acanales3/mern-proj/blob/main/README.md"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#FFC3A1] text-[#A75D5D] font-bold text-lg">
+                    Demo
+                  </button>
+                </Link>
+                <Link
+                  href="https://github.com/acanales3/mern-proj/tree/main/backend"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#FFC3A1] text-[#A75D5D] font-bold text-lg">
+                    Backend
+                  </button>
+                </Link>
+                <Link
+                  href="https://github.com/acanales3/mern-proj/tree/main/frontend"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#FFC3A1] text-[#A75D5D] font-bold text-lg">
+                    Frontend
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
           <div
             style={{
               backgroundImage: `url(./pictures/firstweb.png)`,
