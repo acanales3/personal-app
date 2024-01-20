@@ -16,6 +16,38 @@ export function Projects() {
         {/* Container For Projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Start List of Items */}
+
+          <div
+            style={{
+              backgroundImage: `url(./pictures/pokeapi.png)`,
+            }}
+            className="bg-[#AAAAAA] shadow-lg shadow-[#FFC3A1] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            <div className="opacity-0 group-hover:opacity-80 text-center">
+              <span className=" text-2xl font-bold text-[#FFC3A1] tracking-wider">
+                Pokemon Finder
+              </span>
+              <div className="pt-4 text-center">
+                <Link
+                  href="https://pokemon-api-ochre.vercel.app"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#FFC3A1] text-[#A75D5D] font-bold text-lg">
+                    Demo
+                  </button>
+                </Link>
+                <Link
+                  href="https://github.com/acanales3/pokemon-api/tree/main/pokemon-api"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#FFC3A1] text-[#A75D5D] font-bold text-lg">
+                    Code
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
           <div
             style={{
               backgroundImage: `url(./pictures/notesApp.png)`,
