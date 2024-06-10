@@ -25,7 +25,7 @@ export function AboutMe() {
           </p>
         </div>
         <div className="text-2xl sm:text-4xl font-bold py-4">
-          High School Achomplishments
+          High School Accomplishments
         </div>
         <p className="px-8 max-w-[1000px]">
           I graduated in 2022 at the top of my class, and wanted to pursue
