@@ -10,7 +10,7 @@ export function AboutMe() {
         </div>
         <div className="py-4">
           <p className="px-8 max-w-[1000px]">
-            Hello my name is Alex Canales. I am a passionate sophomore Computer
+            Hello my name is Alex Canales. I am a passionate junior Computer
             Science major at Texas Christian University, with a minor in
             Mathematics and Philosophy. However, even though I go to school in
             Texas, I am originally from Brownsburg, IN. I fell in love with
