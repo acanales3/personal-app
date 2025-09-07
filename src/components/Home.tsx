@@ -14,7 +14,7 @@ export function Home() {
           Student at Texas Christian University
         </h2>
         <p className="text-[#A75D5D] py-4">
-          I am a junior at TCU majoring in Computer Science, with a minor in
+          I am a senior at TCU majoring in Computer Science, with a minor in
           Mathematics and Philosophy. Welcome to my personal portfolio! This is
           a collection of all my greatest works, about me, and all my contact
           information.
